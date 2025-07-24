@@ -1,0 +1,401 @@
+{
+  "app": {
+    "IP": "vdfbzrtebefvre.us-east-1.elb.amazonaws.com",
+    "Port": "3000",
+    "enableSSL": true,
+    "environment": "development",
+    "url": "https://pxo2dev.rockwelltrading.com/#/login"
+  },
+  "mongodb": {
+    "uri": "mongodb://dev:dfhbtxfbtgbtr543534@zvbrevv.cluster-zvrevvezdv.us-east-1.docdb.amazonaws.com:27017/?replicaSet=rs0&readPreference=secondaryPreferred",
+    "dbName": "pxo",
+    "options": {
+      "maxPoolSize": 50,
+      "wtimeoutMS": 2500,
+      "retryWrites": false
+    }
+  },
+  "mysql": {
+    "host": "bzrebzbr.zbrbgtbszerb.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "user": "zbvreebfdzvbfre",
+    "password": "rbzrebebdzfbrd",
+    "database": "pxo-2.0",
+    "waitForConnections": "",
+    "interactive_timeout": 60,
+    "queueLimit": "",
+    "multipleStatements": true
+  },
+  "mysqlV2": {
+    "host": "dfbrgrevfes.rgevbregvt.us-east-1.rds.amazonaws.com",
+    "port": 3306,
+    "user": "zvrehbrebrezvrebregaf",
+    "password": "zvrehbdevrehbt",
+    "database": "pxo-2.0",
+    "waitForConnections": true,
+    "connectionLimit": 100,
+    "interactive_timeout": 60000,
+    "queueLimit": 0,
+    "multipleStatements": true,
+    "timezone": "UTC",
+    "acquireTimeout": 60000,
+    "connectTimeout": 60000,
+    "timeout": 60000
+  },
+  "mysqlV2Options": {
+    "checkConnection": false
+  },
+  "metrics": {
+    "serverUrl": "http://apm.rockwelltrading.com:8200",
+    "secretToken": "zzrevrebzfbregrfvrgrgeg",
+    "serviceName": "PXOv2-Backend-Dev",
+    "opentelemetryBridgeEnabled": true
+  },
+  "infusionSoft": {
+    "app": "zbbtnerbazv",
+    "key": "zvrevrebdfzbre",
+    "authorization": "zbergregvzvrvre==",
+    "passwordTag": 58,
+    "signedLicenseAgreementTag": 14406,
+    "tradierTag": 14776,
+    "joinCommunityTag": 14946,
+    "watchPxoTutorialsTag": 14950,
+    "availableCallsWarning": 100,
+    "standardAccessLevelTag": 16020,
+    "basicAccessLevelTag": 16456,
+    "proAccessLevelTag": 16022,
+    "maxTrialAccessLevelTag": 15016,
+    "maxAccessLevelTag": 10776,
+    "mastermindAccessLevelTag": 5284,
+    "shortingStocksAddonTag": 16436,
+    "wtfAddonTag": 16481
+  },
+  "goHighLevel": {
+    "isDefault": true,
+    "clientId": "zvrevrevrevret-lv9dt3v7",
+    "clientSecret": "gervsrev-f6d0-444a-93b0-rvrevre"
+  },
+  "tradier": {
+    "keys": [
+      "revrevervregtsre",
+      "avrevervreverve",
+      "ergvergeavrev"
+    ],
+    "requestsPerSecond": 5
+  },
+  "coinbase": {
+    "requestsPerSecond": 7
+  },
+  "eodhistoricaldata": {
+    "keys": [
+      "xbrthgxthrthxh"
+    ],
+    "requestsPerSecond": 5
+  },
+  "preMarketLiveData": {
+    "apiKey": "eavfergtegbvreafwefrgfwerfrwe",
+    "preMarketStartOffset": "-05:30:00",
+    "preMarketEndOffset": "00:00:00",
+    "postMarketStartOffset": "00:00:00",
+    "postMarketEndOffset": "04:00:00",
+    "websocket": "wss://ws.tradier.com/v1/markets/events",
+    "refreshIntervalSeconds": 1,
+    "reportingIntervalSeconds": 300,
+    "inactiveSessionsClosedCountLimit": 3
+  },
+  "usLiveDataViaWebsocket": {
+    "writeDetailedLog": false,
+    "enableUpdatesThrottling": true,
+    "websocketRecycling": {
+      "interval": "00:05:30",
+      "start": "09:30:00",
+      "end": "16:30:00"
+    }
+  },
+  "liveData": {
+    "startOffset": "00:00:00",
+    "endOffset": "00:00:00",
+    "refreshIntervalSeconds": 1,
+    "apiKeys": [
+      "avrevrerererevareerafvadsvfregre"
+    ],
+    "useGetQuotesPost": true
+  },
+  "liveDataRunner": {
+    "refreshIntervalSeconds": 10,
+    "apiKeys": [
+      "fvergergvavrvwervrevarevcrev"
+    ],
+    "requestsPerSecond": 4,
+    "useGetQuotesPost": true
+  },
+  "defaultWorkingHours": {
+    "startTime": "09:30:00",
+    "endTime": "16:00:00"
+  },
+  "bullCallSpread": {
+    "tradierKeys": [
+      "fwrefwefwefwefwefwef",
+      "aargregvegvretgretg"
+    ],
+    "requestsPerSecond": 5,
+    "preMarketStartOffset": "-00:04:00",
+    "openOffset": "00:00:00",
+    "startOffset": "00:01:00",
+    "endOffset": "-00:02:00",
+    "closeOffset": "00:00:00",
+    "postMarketEndOffset": "00:02:00",
+    "minProcessingIntervalSec": 5,
+    "minPriceForSpreadRatio": 0.01,
+    "maxPriceForSpreadRatio": 0.5
+  },
+  "liveWheelCalculator": {
+    "tradierKeys": [
+      "avwervsavewvwevrvawereerg",
+      "wafrewgfrevervrvzvr"
+    ],
+    "requestsPerSecond": 5,
+    "startOffset": "00:00:00",
+    "endOffset": "00:00:00",
+    "minProcessingIntervalSec": 10,
+    "debug": true
+  },
+  "tradierTradingApi": {
+    "clientId": "fwaefewfewfaSfwef",
+    "clientSecret": "waegvweafawefweafew",
+    "apiUrl": "https://api.tradier.com",
+    "sandboxApiUrl": "https://sandbox.tradier.com",
+    "useSampleHistory": true
+  },
+  "tradeZeroApi": {
+    "demoClientId": "RWProdTZPrevrebrtbszreaesdcawecerodClientDemo",
+    "demoClientSecret": "vearvreavrevrev",
+    "clientId": "wegfesrgarvgewaf",
+    "clientSecret": "awevfreagrafweewvcwe",
+    "apiUrl": "https://webapi.tradezero.com/v1/capi",
+    "sandboxApiUrl": "https://webapi.tradezero.com/v1/capi"
+  },
+  "accessControlAllowOrigins": [
+    "https://pxo2dev.rockwelltrading.com",
+    "http://localhost:4200",
+    "http://localhost:4300",
+    "http://bs-local.com:4200"
+  ],
+  "jwt": {
+    "tokenKey": "varevfrvrvaev-ae12-4103-8e78-ervaevrevr",
+    "expirationSeconds": 36000,
+    "inactivityTimeoutSeconds": 3600
+  },
+  "apiKeys": {
+    "enabled": true,
+    "keys": [
+      {
+        "key": "xdffgdg-dev-revar-8c65-4f38-a139-avervawrevv",
+        "name": "PXO Chat Dev",
+        "enabled": true
+      }
+    ]
+  },
+  "bannerStatus": {
+    "refreshIntervalSeconds": 10
+  },
+  "showProcessingPage": true,
+  "runMarketDataWebSockets": true,
+  "runUsMarketDataWebSocketsV2": true,
+  "useDatabaseUsMarketDataWebSocketsV2": true,
+  "shortingStocksRunner": {
+    "run": true,
+    "saveDataInDatabase": true,
+    "processNotifications": true,
+    "requestsPerSecond": 5,
+    "fetchHistoricalDataDays": null,
+    "settings": {
+      "numberOfHalts": 1,
+      "minVolume": 20000,
+      "dailyRangeMultiplier": 0.01,
+      "dailyPriceMultiplier": 0.01
+    },
+    "tradierApiKeys": [
+      "revearvrvreavervre",
+      "ervervrevrevreaefre"
+    ]
+  },
+  "shortingStocksScannerRunner": {
+    "run": true,
+    "lowerPriceThreshold": 1,
+    "upperPriceThreshold": 20,
+    "debug": true,
+    "requestsPerSecond": 2,
+    "tradierApiKeys": [
+      "ervervwervervrevrevrevreverver"
+    ]
+  },
+  "intradayData": {
+    "requestsPerSecond": 5,
+    "tradierApiKeys": [
+      "vederververververv",
+      "verververvewawevregr"
+    ]
+  },
+  "notifications": {
+    "websitePopup": true,
+    "sms": true,
+    "whatsApp": true,
+    "telegram": true,
+    "email": true,
+    "wheel": true,
+    "wtf": true,
+    "dividends": true,
+    "updateStateInDatabase": true,
+    "encryptionKey": "evreve/verververv+DsO6tzN4TdtY=",
+    "host": "https://pxo2dev.rockwelltrading.com/",
+    "runUserAccessChecker": true,
+    "enabledUserIds": null
+  },
+  "CM": {
+    "productToken": "erverv-ecd9-42a8-8403-ververv",
+    "from": "vervrevrevervrev"
+  },
+  "Telegram": {
+    "webhookSecretToken": "0742a62f-erv-4586-bf8b-revervwv",
+    "token": "bot70vervwevrv33662462:rgverg",
+    "apiUrl": "https://api.telegram.org",
+    "webhookUrl": "https://api-pxo2dev.rockwelltrading.com/v2/telegram/wh",
+    "botLink": "https://t.me/RockwellTradingDevBot"
+  },
+  "memoryCache": {
+    "maxItemsCount": 1000,
+    "cacheTimeMin": 30
+  },
+  "httpCacheConfiguration": {
+    "enabled": true,
+    "cacheIntervalSeconds": 600,
+    "useHybridMode": true
+  },
+  "tradingPanel": {
+    "ordersCountLimit": null,
+    "positionsCountLimit": null
+  },
+  "haltsRunner": {
+    "run": true,
+    "saveDataInDatabase": true
+  },
+  "wtfRunner": {
+    "run": true
+  },
+  "tradierKeys": [
+    {
+      "id": 0,
+      "apiKey": "everbrtbeerbve",
+      "features": [
+        "usLiveDataHeatmapWebsocket"
+      ]
+    },
+    {
+      "id": 1,
+      "apiKey": "ervregbvbrtbdrft",
+      "features": [
+        "usLiveDataHeatmapWebsocket"
+      ]
+    },
+    {
+      "id": 2,
+      "apiKey": "vfverev",
+      "features": [
+        "usLiveDataHeatmapWebsocket"
+      ]
+    },
+    {
+      "id": 3,
+      "apiKey": "vrbevrvfre",
+      "features": [
+        "usLiveDataSubscriptionWebsocket"
+      ],
+      "config": {
+        "useQuotes": true
+      }
+    },
+    {
+      "id": 4,
+      "apiKey": "swfecswegregvefvf",
+      "features": [
+        "usLiveDataSubscriptionWebsocket"
+      ],
+      "config": {
+        "useQuotes": true
+      }
+    }
+  ],
+  "testUserAccounts": [
+    "mastermind@testing.co",
+    "mastermind2@testing.co"
+  ],
+  "openai": {
+    "apiKey": "sk-gdfgzgrggzrg",
+    "model": "gpt-3.5-turbo",
+    "limitPerDay": 1000,
+    "maxTokens": 500,
+    "maxMessagesLength": 3500
+  },
+  "knowldgeBase": {
+    "apiUrl": "https://chat2dev.rockwelltrading.com",
+    "username": "addbfrvrvsvwefvw5581",
+    "password": "dfgregregregregrefv"
+  },
+  "codyChat": {
+    "apiUrl": "https://getcody.ai/api/v1",
+    "apiKey": "jyhbhbshfbhksedf",
+    "maxPromptLength": 2000
+  },
+  "delphiChat": {
+    "privateKey": "-----BEGIN PRIVATE KEY-----jyhg\j\ncbclsGo5XZt2eL9NBoV28gsISp63SKLP3LshTv8jNBQOIzaNS9SwztJRyNjThyud\nsxYPuK/5+BQSaGStw5XKtf3SgbOVHUi\5+RbflJ7oXra/onTaKm9l5Ws5batn1\nTOCUaLuLGES/5nB7NXqJNNC0Rz8O0NbB1LaaYihX3vIaDeSTsHGu7f2PNLvUdtQq\nG7TKsZeQ9u4T+IPds3pUFPsPixHt9eD5EbRUCAjIpnW4hy12t4Ty8ddbt84eH4ON\nrdF9UciTAgMBAAECggEATjDfR+muPUM/wMZxzA5cdNw7J0R0TK+FsaV3R3rdijJb\nNKBrPI8/zsDakUmWLji93/Fwz05ItaDr7f5JgVLdre+B6PrBc9wVLlmFRF2feadI\ndNVuiQp5bD8ei8+Wqfqa6H2F8pLm6TzM/TeYtfznv5TuEmLSawfdqo3i0jwRdoIO\ncRdmYhQ21vBQUQtOznnN5XSfZXqn/CmoRg9BmkgxhA+T+5UUJ84oOsQMYZsCU2Qi\nO/GlAfbHCFe8LJTkXWSgOo/AMJjwX2mnnv5t94cYnrLEHmFICanJIPPv5VfMp7yj\ndFRjQmkFFHdP7LjBqXDdUcSNcaDeqb3XCO6GFxn4wQKBgQD+Yp2FeN3JKFSphxpF\neZzD1d8mbbJSyG6deC+NG7k4Pt+fE6W3lhwpfiSbnruw+FBPaCN9rSP5CdgihM4z\nhHnGZtbMGdgIDv7ZTOvxWOhso6525ZcKjJdmZLKWODCf+WhqgFZMzuJceltP+qi5\ner4RjEbdU/Y9SY/AeEIsbTS8wwKBgQDxUO8Jq/8aCpS7lytEv7xUJLbkIs098Tg5\nVF3BYEYk+ARSEQ8PCk2eRoB283ulrrsczfdEPW+HLB2dDNCC6UyABY6kk4+H/o/t\nJtv97bAnJNO0VZWmtR2scra+JPWmgKX1WI6newh/UTxcMx2CEdevBufv9yYeD2wg\nQBKNu0ZH8QKBgEBPPfNYMvl/sKeK+CFINVFs6BUW9lXnRc+ZaqwJrjGB85aLqQFY\neZYjxa1x25FJtUPd19sVwlpbGsDfQiHUA9UceoDup6ah49ubjqpdB6UvXBPCxwRr\ntnq0SlGfsus+ah9Cgo64XpFyfVMi0zTQyuw0wlWBvGaSCj1mKZSBpytxAoGAD/zi\nuWtRzXHiBMOxNC7X1WNRUrATlQUESpgSVhuAyjY8YwuKSd7O4aueG0Nqb8Gx1+i1\ndyny16vOknck4Wd/kAPOPY0hN0tgUb//V0WGJDHGbO42qgLZ4nD/Nn3QYKWpWSXy\n3ZnDKFxDeYBRdiqkdY4pk7Z2KguviDt2fzlnIKECgYEAzYdl9jAAMnf8Uzi5t/L1\nDgCGJapMhn/FR1UNr1KvjCjol/6+VkFy8xMZR3IGEnSn/pKkP7+43/PdLZwAhhRa\n38eDh/+kXOxosscbY8gzrScr2qQfJgR/KC9OvG9MCFKgVKL2RUDtY6g3xCpzbLVS\n7Nu+FGqnHPHEnj2mqllnoiE=\n-----END PRIVATE KEY-----"
+  },
+  "allowListedUsers": [
+    {
+      "Id": 2068636,
+      "Email": "userloaddsvduk4bfxS0HfVNUPgg@testing.co",
+      "FirstName": "User",
+      "LastName": "Load",
+      "Groups": [
+        14406,
+        14946,
+        5284,
+        14776,
+        14950
+      ],
+      "isTrialUser": false,
+      "userAgreement": true,
+      "_Hash": "afdsvsdvrfrsdvfr"
+    }
+  ],
+  "smtpServer": {
+    "host": "email-smtp.us-east-1.amazonaws.com",
+    "port": 465,
+    "user": "AKIAYTBLOGKJ5TEMIRXK",
+    "password": "67r546787867575565"
+  },
+  "googleAuth": {
+    "type": "service_account",
+    "project_id": "pxo-451519",
+    "private_key_id": "4356435235234",
+    "private_key": "-----BEGIN PRIVATE KEY-----\6515515/P/\51/No\n61sksAO++51/Hf1nL0gM6fRXXVNoQSXNWckupbBp2ln8g47w36Z\nniuz4ku+4/5\n2+xh/KDv7M6z8cV5HJGU+u6I6fNydSN976\zdgbfr\zgdr\nBge74t4KX5hiWQjWQYB9agxi2skXxS0qG3WFfUCtPPTTEu16zD82U+S2ssGEstKW\ntMLaXDzbj4uss5hI12uS1Ztfy+9Boo9oj2b6hefh2dMdOp5gAemPEeiRPRQvJuzq\nKeATETPRteXRzkc8EH1AQN4Kho+htc3ccHxpVKFRDNBwagn7ZBEudORLOnfUEE50\nlvFvBV5ORxV6H2tuhtAM8OiBQaCvDRUhUvixKV5C1GCZrMgViIHvIHvZOko9yuns\nKFvdQnci9tguLEbwyRt3rnLeg7a6FzBMR/Peaq5oUQKBgQDRKoKgbEWWBo4wgz26\nZQRjbNNLFdJ4g3HAY6UrFEbt3cczR1pmitGJyZP+ppdIxE1zjaM2Ov0Xd4kjflc2\nQJ3MSvwyVLc08jgCop3PFlB6rRT9J6ZJpn0keRIKasRYCX6Z4U3PVdLcTZu++M0a\nYj0l4TNqG1EwhzpWtZhmIBL/MQKBgQDMGUNM7brOdGHc6s1wRPqCwHad0mt3FzoY\nc4TpJXewm4AVZTCGcGHvjNMTc9JHppRFf+A0/GUwhnZKUk3DXO1TNutBQTtd+VLL\nmFUOP7HR7HQ+7iY81uOBGMmQiptgj+9qSAVRY+VIYZASji/l3T0vlR3ojyyY/TNz\nNPS1R54+RQKBgQC9HDcwPdQIWXLzT6VewfhewESlDVzWktkkvbLWqSWb6DkzFp8Y\nOQhMEJGa2hnLs5fnErbu0BSFxBCco5zMM024KE+uXcOqvhh/4XDWi/FFiPmCDPge\nfMWGVWRHQNK2Whc5n2ePPqQ/hHd9CUu/P/TTK7Ili/8y5gCL5vGb3AHw8QKBgQDB\nbRfJKmwmCUpN8gEs61J25CwGOks6nDqkvaYyxx19tIFYxYONhahrPI02HEgnO4m9\nrAkybhkAOg6VNRcZlVId0Sh3uXioAQgkh4Pkcxz1FCC/GzgF5KnLyVANui6y/vYp\nRYQ0tHWxeTTvQO3H7Tp1g97KbhYYD67Y+lEIFI21+QKBgFgDufe/HuirjKLXiIMQ\nnHe1v7wGiWDDwCDn1eE/eeZEhTo4z2YBiHfefrtZpcVx3IxurMbeMWg2SAR41pJ5\nqY/lraQgbHXkZdRx7pmyZkyqsd875PU2ajZyFpa4EvtWJZf3v2ZFfsK2PP+aPa4p\n0eHiEJbYlTAVJN/aRbFPFDmf\n-----END PRIVATE KEY-----\n",
+    "client_email": "default-ai@lkgserviceaccount.com",
+    "client_id": "351681531351381384851351531353",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/default-ai%40pxo-ai-451519.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  },
+  "newsAI": {
+    "api_summary_streaming_endpoint": "https://analysis-ai-streaming-backend-dev-943903054207.us-central1.run.app",
+    "cache_ttl_minutes": 5,
+    "cache_max_items_count": 5000,
+    "useTestResponse": false
+  },
+  "pxoChatAI": {
+    "api_streaming": "https://chat-ai-backend-dev.us-central1.run.app/ask",
+    "useTestResponse": false,
+    "tokenExpirationSeconds": 300
+  }
+}
