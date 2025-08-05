@@ -47,3 +47,8 @@ unmanaged_ubuntu:
 test_windows:
   playbooks:
   - test_windows.yml
+test_windows1:
+  playbooks:
+  - test1_windows.yml
+
+  
